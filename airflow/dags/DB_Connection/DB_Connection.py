@@ -24,8 +24,8 @@ def connect_redshift():
     #     db_user = 'admin',
     #     password = 'nthphAdmin1',
     #     cluster_identifier = 'ntph-redshift-cluster',
-    #     access_key_id = 'AKIAVBF5FG5KUMIMKE4Y',  
-    #     secret_access_key = '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', region = 'us-east-1'
+    #     access_key_id = '',  
+    #     secret_access_key = '', region = 'us-east-1'
     # )
     conn = psycopg2.connect(
         host='ntph-redshift-cluster.cfokpgt4ulnn.us-east-1.redshift.amazonaws.com',
